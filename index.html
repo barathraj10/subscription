@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <style>
+        body{
+            background-color: rgb(246, 176, 90);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .content{
+            background-color: rgb(235, 225, 188);
+            margin:90px;
+            transition:0.5s;
+            box-shadow: 10px 10px 30px;
+        }
+        .content:hover{
+            box-shadow:10px 10px 60px;
+            border-radius:30px;
+        }
+        #highlight{
+            background-color: rgb(244, 195, 135);
+            padding:20px;
+        }
+        #input{
+            margin:10px;
+            width:90%;
+        }
+        #select{
+            width:100%;
+            margin:10px;
+            padding:3px;   
+        }
+        #check{
+            margin-left:20px;
+        }
+        button{
+            padding:8px;
+            background-color: rgb(6, 131, 6);
+            color:white;
+            width: 100%;
+            /* margin:40px; */
+        }
+        #button{
+            padding:20px;
+            background-color:  rgb(244, 195, 135) ;
+            margin-top:10px;
+        }
+        h1{
+            text-align: center;
+            margin:100px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Newsletter</h1>
+    <div class="content">
+        <div id="highlight">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel adipisci assumenda perspiciatis omnis quia quos aliquid voluptatem ea similique sint, voluptate vitae eveniet illo fugit amet magni eum voluptates!</p>
+        </div>
+        <div id="input">
+            <input id="select" placeholder="Name">
+            <br>
+            <input id="select" type="email" placeholder="Email">
+        </div>
+        <div id="check">
+            <input type="checkbox">
+            <label >Daily Newsletter</label>
+        </div>
+        <div id="button">
+        <button>Subscribe</button>
+        </div>
+    </div>
+
+</body>
+</html>
